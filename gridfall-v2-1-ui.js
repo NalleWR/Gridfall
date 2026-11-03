@@ -4,7 +4,7 @@ const $=id=>document.getElementById(id);const command=$('command');let current='
 const views=['home','vault','calendar','weather','more','command-center','dogs','ledger','missions','sim','settings'];
 const nav=document.querySelector('nav.tabs');if(nav)nav.remove();
 const app=document.querySelector('.app');const status=app.querySelector(':scope > .panel');const header=app.querySelector('header');
-const footer=app.querySelector('.footer');if(footer)footer.textContent='GRIDFALL v2.5 · Local-first · Preparedness is a process, not a guarantee.';
+const footer=app.querySelector('.footer');if(footer)footer.textContent='GRIDFALL v2.7 · Local-first · Preparedness is a process, not a guarantee.';
 for(const id of ['dogs','ledger','calendar']){const el=document.createElement('section');el.id='view-'+id;el.className='hidden';command.parentNode.insertBefore(el,command)}
 const dogPhotoBox=document.createElement('div');dogPhotoBox.id='dog-photos';
 function group(panel){const h=panel.querySelector('h2')?.textContent||'';if(h.includes('RATION COMMAND'))return 'calendar';if(h.includes('CANINE'))return 'dogs';if(h.includes('LEDGER'))return 'ledger';if(h.includes('PRECISION'))return 'vault';if(h.includes('CALENDAR'))return 'calendar';if(h.includes('STORMWATCH'))return 'weather';if(h.includes('BACKUP'))return 'settings';return 'dogs'}
