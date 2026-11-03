@@ -1,1 +1,1 @@
-GRIDFALL v2.4 — Removes redundant legacy top navigation and adds offline local date and time to the header. All previous app data remains in local storage. Backup before updating.
+GRIDFALL v2.5 - Restore Ration Command summary to Rations tab, keep precise food logging and calendar, Missions as first tab, Command Center as last tab. Existing localStorage keys unchanged. Export full and photo backups before deploying.
