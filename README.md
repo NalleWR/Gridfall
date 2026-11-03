@@ -1,7 +1,7 @@
-# GRIDFALL — Operation Last Light v2.1
+GRIDFALL v2.3 — Stormwatch Reborn.
 
-Mobile navigation and interface overhaul. Existing v1 and v2 localStorage keys are retained. New dog photos are saved separately on the device and can be backed up in Settings.
+Upload the files in this ZIP to the root of your GitHub Pages repository, replacing matching names. Do not upload the ZIP itself.
 
-Upload all eight files in this folder directly to the GitHub Pages repository root. Do not upload the ZIP itself. Export your **full v2 backup** before updating; export dog photos separately after adding them.
+New Stormwatch features: atmospheric weather backgrounds, current conditions, 7-day cards, hourly forecast, offline cache, and preparedness advisory.
 
-This app is a preparedness planning tool, not a source of official weather alerts or veterinary nutrition guidance.
+Before updating, export a full backup and dog photo backup from GRIDFALL. Data stays in the same local storage keys.
